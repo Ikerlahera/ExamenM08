@@ -2,7 +2,7 @@
 /**
  * @author Iker Lahera Gonzalez
  * Version 1 */ 
-class Shape {
+class shape {
   
   /** 
    * @return double
@@ -12,7 +12,7 @@ class Shape {
   }
 }
 // A Rectangle is a Shape with a specific width and height
-class Rectangle extends Shape {   // extended form the Shape class
+class Rectangle extends shape {   // extended form the Shape class
   private double width;
   private double height;
   public Rectangle(double width, double height) {
@@ -24,7 +24,7 @@ class Rectangle extends Shape {   // extended form the Shape class
   }
 }
 
-class Cuadrat extends Shape{
+class Cuadrat extends shape{
   private double costat;
   public Cuadrat(double costat){
     this.costat = costat;
@@ -35,7 +35,7 @@ class Cuadrat extends Shape{
 }
 
 // A Circle is a Shape with a specific radius
-class Circle extends Shape {
+class Circle extends shape {
   private double radius;
   public Circle(double radius) {
     this.radius = radius; 
