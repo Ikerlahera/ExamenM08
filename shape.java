@@ -1,5 +1,11 @@
 // A sample class Shape which provides a method to get the Shape's area
+// Iker Lahera Gonzalez
+// Version 1
 class Shape {
+  
+  /** 
+   * @return double
+   */
   public double getArea() {
     return 0;
   }
@@ -16,7 +22,7 @@ class Rectangle extends Shape {   // extended form the Shape class
     return width * height; 
   }
 }
-// A Circle is a Shape with aa specific radius
+// A Circle is a Shape with a specific radius
 class Circle extends Shape {
   private double radius;
   public Circle(double radius) {
