@@ -1,6 +1,7 @@
 // A sample class Shape which provides a method to get the Shape's area
-// Iker Lahera Gonzalez
-// Version 1
+/**
+ * @author Iker Lahera Gonzalez
+ * Version 1 */ 
 class Shape {
   
   /** 
@@ -22,6 +23,17 @@ class Rectangle extends Shape {   // extended form the Shape class
     return width * height; 
   }
 }
+
+class Cuadrat extends Shape{
+  private double costat;
+  public Cuadrat(double costat){
+    this.costat = costat;
+  }
+  public double getArea(){
+    return costat*4;
+  }
+}
+
 // A Circle is a Shape with a specific radius
 class Circle extends Shape {
   private double radius;
