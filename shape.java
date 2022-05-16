@@ -2,7 +2,7 @@
 /**
  * @author Iker Lahera Gonzalez
  * Version 1 */ 
-class shape {
+public class shape {
   
   /** 
    * @return double
